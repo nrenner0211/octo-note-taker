@@ -1,2 +1,5 @@
 # octo-note-taker
-Module 11 Challenge
+
+## Starter Code
+
+[Link](https://github.com/coding-boot-camp/miniature-eureka)
