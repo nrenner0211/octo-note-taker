@@ -1,21 +1,19 @@
-const express = require('express');
-
-const PORT = process.env.PORT || 3001;
+const express = require("express");
 const app = express();
+const PORT = process.env.PORT || 3001;
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
-// Express middleware
-app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+// parse incoming string or array data
+app.use(express.urlencoded({extended: true}));
+// parse incoming JSON data
 app.use(express.json());
-app.use(express.static(__dirname));
 
-require('./routes/routes')(app);
+// Use apiRoutes
+app.use('/api', apiRoutes);
+app.use('/', htmlRoutes);
 
-// Default response for any other request (Not Found) //catchall
-app.use((req, res) => {
-    res.status(404).end();
-});
-
-//start server on port
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`API server now on port ${PORT}. Welcome!`);
 });
