@@ -40,6 +40,16 @@ This challenge was to create an application called Note Taker that can be used t
 
 `THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column`
 
+## Tests
+
+You will need to install Node.js to test this application. When Node is installed, enter in your command line:
+
+`npm init --y`
+
+`npm i express`
+
+`npm start`
+
 ## Links
 
 [Starter Code](https://github.com/coding-boot-camp/miniature-eureka)
@@ -60,7 +70,7 @@ This challenge was to create an application called Note Taker that can be used t
 
 ## Contact
 
-[![Gmail Badge](https://img.shields.io/badge/-nrenner0211@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nrenner0211@gmail.com)](mailto:nrenner0211@gmail.com)
 [![Linkedin Badge](https://img.shields.io/badge/-nrenner0211-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nrenner0211/)](https://www.linkedin.com/in/nrenner0211/)
+[![Gmail Badge](https://img.shields.io/badge/-nrenner0211@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:nrenner0211@gmail.com)](mailto:nrenner0211@gmail.com)
 
 Thanks for visiting!
