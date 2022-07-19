@@ -20,4 +20,6 @@ This challenge was to create an application called Note Taker that can be used t
 
 ### Deployed Application
 
-[Link](https://nrenner0211.github.io/octo-note-taker/)
+[Heroku Link](https://enigmatic-dusk-13556.herokuapp.com/)
+
+[Github Link](https://nrenner0211.github.io/octo-note-taker/)
