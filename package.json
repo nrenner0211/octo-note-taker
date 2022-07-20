@@ -6,7 +6,7 @@
   "name": "octo-note-taker",
   "description": "[Link](https://github.com/coding-boot-camp/miniature-eureka)",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon server.js"

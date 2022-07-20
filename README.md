@@ -44,7 +44,7 @@ This challenge was to create an application called Note Taker that can be used t
 
 You will need to install Node.js to test this application. When Node is installed, enter in your command line:
 
-`npm init --y`
+`npm init -y`
 
 `npm i express`
 
@@ -58,7 +58,7 @@ You will need to install Node.js to test this application. When Node is installe
 
 ### Deployed Application
 
-[Heroku Link](https://enigmatic-dusk-13556.herokuapp.com/)
+[Heroku Link](https://enigmatic-dusk-13556.herokuapp.com/notes)
 
 [Github Link](https://nrenner0211.github.io/octo-note-taker/)
 
